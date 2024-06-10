@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5gNd0eVVveJUnsOjudInRESpL2MmUUJem4EOI7x0II4=",
+  "Source": "Custom-provider-dummy-api",
+  "BasePath": "_content/Custom-provider-dummy-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,12 @@
+C:\Users\Amit Limbasiya\source\repos\Custom-provider-dummy-api\Custom-provider-dummy-api\bin\Release\net8.0\linux-x64\publish\Custom-provider-dummy-api
+C:\Users\Amit Limbasiya\source\repos\Custom-provider-dummy-api\Custom-provider-dummy-api\bin\Release\net8.0\linux-x64\publish\appsettings.Development.json
+C:\Users\Amit Limbasiya\source\repos\Custom-provider-dummy-api\Custom-provider-dummy-api\bin\Release\net8.0\linux-x64\publish\appsettings.json
+C:\Users\Amit Limbasiya\source\repos\Custom-provider-dummy-api\Custom-provider-dummy-api\bin\Release\net8.0\linux-x64\publish\Custom-provider-dummy-api.dll
+C:\Users\Amit Limbasiya\source\repos\Custom-provider-dummy-api\Custom-provider-dummy-api\bin\Release\net8.0\linux-x64\publish\Custom-provider-dummy-api.deps.json
+C:\Users\Amit Limbasiya\source\repos\Custom-provider-dummy-api\Custom-provider-dummy-api\bin\Release\net8.0\linux-x64\publish\Custom-provider-dummy-api.runtimeconfig.json
+C:\Users\Amit Limbasiya\source\repos\Custom-provider-dummy-api\Custom-provider-dummy-api\bin\Release\net8.0\linux-x64\publish\Custom-provider-dummy-api.pdb
+C:\Users\Amit Limbasiya\source\repos\Custom-provider-dummy-api\Custom-provider-dummy-api\bin\Release\net8.0\linux-x64\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Amit Limbasiya\source\repos\Custom-provider-dummy-api\Custom-provider-dummy-api\bin\Release\net8.0\linux-x64\publish\Microsoft.OpenApi.dll
+C:\Users\Amit Limbasiya\source\repos\Custom-provider-dummy-api\Custom-provider-dummy-api\bin\Release\net8.0\linux-x64\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Amit Limbasiya\source\repos\Custom-provider-dummy-api\Custom-provider-dummy-api\bin\Release\net8.0\linux-x64\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Amit Limbasiya\source\repos\Custom-provider-dummy-api\Custom-provider-dummy-api\bin\Release\net8.0\linux-x64\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
