@@ -8,9 +8,11 @@
     <EnableSdkContainerSupport>true</EnableSdkContainerSupport>
     <RootNamespace>Custom_provider_dummy_api</RootNamespace>
     <UserSecretsId>99733eca-a9c3-4366-8e05-5d8b5357c2ec</UserSecretsId>
-	<ContainerRepository>custom-provider-api</ContainerRepository>
 	<ContainerBaseImage>mcr.microsoft.com/dotnet/aspnet:8.0-jammy-chiseled-extra</ContainerBaseImage>
 	<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	<ContainerRegistry>494052612135.dkr.ecr.ap-south-1.amazonaws.com</ContainerRegistry>
+	<ContainerRepository>494052612135.dkr.ecr.ap-south-1.amazonaws.com/custom-provider-api</ContainerRepository>
+	<ContainerImageTag>1.0.0;latest</ContainerImageTag>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
 
