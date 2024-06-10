@@ -12,7 +12,7 @@
 	<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
 	<ContainerRegistry>339712877508.dkr.ecr.us-west-1.amazonaws.com</ContainerRegistry>
 	<ContainerRepository>custom-test-repo</ContainerRepository>
-	<ContainerImageTags>1.0.0;latest</ContainerImageTags>
+	<ContainerImageTags>2.0.0;latest</ContainerImageTags>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
 
