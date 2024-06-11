@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Custom-provider-dummy-api.props" />
-</Project>

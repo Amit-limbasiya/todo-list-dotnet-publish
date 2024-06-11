@@ -19,7 +19,7 @@ List<string> todoList = new();
 
 app.MapGet("/get", () =>
 {
-    Console.WriteLine("get endpoint hit from version 2");
+    Console.WriteLine("get endpoint hit from version 1");
     return todoList;
 })
 .WithName("GetToDoList")
@@ -32,7 +32,7 @@ app.MapPost("/create", (List<string> things) =>
     //{
     //    "extra"
     //};
-    Console.WriteLine("create endpoint hit from version 2");
+    Console.WriteLine("create endpoint hit from version 1");
     return todoList;
 })
 .WithName("MakeToDoList")
@@ -41,7 +41,7 @@ app.MapPost("/create", (List<string> things) =>
 app.MapPut("/update", (List<string> things) =>
 {
     todoList = new List<string>(things.Select(x => x.ToString()));
-    Console.WriteLine("update endpoint hit from version 2");
+    Console.WriteLine("update endpoint hit from version 1");
     return todoList;
 })
 .WithName("UpdateToDoList")
@@ -49,7 +49,7 @@ app.MapPut("/update", (List<string> things) =>
 
 app.MapDelete("/delete", () =>
 {
-    Console.WriteLine("delete endpoint hit from version 2");
+    Console.WriteLine("delete endpoint hit from version 1");
     todoList = new List<string>();
     return todoList;
 })
