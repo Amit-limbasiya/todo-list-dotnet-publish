@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Custom-provider-dummy-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+534028b2cd7518aa53b42e8747c25f4820cb5da4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+740e4a87c2ae485d3c5c82f7f193f2eec59a8016")]
 [assembly: System.Reflection.AssemblyProductAttribute("Custom-provider-dummy-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Custom-provider-dummy-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
