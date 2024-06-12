@@ -17,14 +17,14 @@ phases:
     commands:
       - echo Logging in to Amazon ECR...
       - aws ecr get-login-password --region us-west-1 | docker login --username AWS --password-stdin 339712877508.dkr.ecr.us-west-1.amazonaws.com
-      - ls 
+      - git tag
       - LATEST_TAG=$(git tag -l --sort=-v:refname | head -n 1)
       - echo Latest tag is $LATEST_TAG
 
   build:
     commands:
       - echo Building container image and pushing to ecr through dotnet publish command...
-      - dotnet publish --os linux --arch x64 /t:PublishContainer
+      - dotnet publish --os linux --arch x64 -p ContainerImageTags='"$LATEST_TAG;latest"' /t:PublishContainer
 
 artifacts:
   files:
