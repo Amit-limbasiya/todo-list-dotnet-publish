@@ -20,7 +20,7 @@ List<string> todoList = new();
 app.MapGet("/get", () =>
 {
     Console.WriteLine("get endpoint hit from version 2");
-    return todoList;
+    return todoList;        
 })
 .WithName("GetToDoList")
 .WithOpenApi();
