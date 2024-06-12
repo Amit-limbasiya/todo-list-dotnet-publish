@@ -17,6 +17,8 @@ phases:
     commands:
       - echo Logging in to Amazon ECR...
       - aws ecr get-login-password --region us-west-1 | docker login --username AWS --password-stdin 339712877508.dkr.ecr.us-west-1.amazonaws.com
+      - LATEST_TAG=$(git tag -l --sort=-v:refname | head -n 1)
+      - echo Latest tag is $LATEST_TAG
 
   build:
     commands:
@@ -27,3 +29,8 @@ artifacts:
   files:
     - '**/*'
   discard-paths: yes
+
+
+
+# publish command details - is it building the application or not
+# image tag based on git tag 
