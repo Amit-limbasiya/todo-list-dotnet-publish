@@ -24,7 +24,7 @@ phases:
   build:
     commands:
       - echo Building container image and pushing to ecr through dotnet publish command...
-      - dotnet publish --os linux --arch x64 -p ContainerImageTags="$LATEST_TAG;latest" /t:PublishContainer
+      - dotnet publish --os linux --arch x64 -p ContainerImageTags=$LATEST_TAG'";latest"' /t:PublishContainer
 
 artifacts:
   files:
